@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vue test</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<style>
+    .fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+</style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="row">
+                <h1>Hello</h1>
+            </div>
+            <div class="row">
+                <div class="col-6 pl-0">
+                    <form v-on:submit.prevent="onSubmit">
+                        <div class="form-row">
+                            <div class="col-10">
+                                <input v-model="model.value"  class="form-control" />
+                            </div>
+                            <div class="col-2">
+                                <button class="btn btn-primary float-right">send</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col-10 mt-2 pl-0 pr-0">
+                            <div v-if="items.length === 0">No items</div>
+                            <div v-else>
+                                <transition-group class="list-group" name="list" tag="ul">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center" 
+                                            v-for="(item, index) in items"
+                                            v-bind:key="index">
+                                        <span>{{item}}</span>
+                                        <button v-on:click="remove(index)" class="btn btn-danger">Delete</button>
+                                    </li>
+                                </transition-group>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+
+var data = function() {
+    return {
+        model: {
+            value: ''
+        },
+        items: []
+    }
+}
+
+var methods = {
+
+    onSubmit: function() {
+        this.items.push(this.model.value);
+        this.model.value = '';
+    },
+    remove: function(index) {
+
+        this.items.splice(index, 1);
+    }
+}
+
+const app = new Vue({
+    el: '#app',
+    data: data,
+    methods: methods
+});
+
+</script>
+
+</html>
