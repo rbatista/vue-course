@@ -8,15 +8,12 @@
 
 <script>
 import PokemonCard from './PokemonCard.vue'
+import { pokemons } from '../utils/pokemons.js'
 
 export default {
   data () {
     return {
-      pokemons: [
-        { id: 1, name: 'bulbasaur', types: [ { id: 12, name: 'grass' }, { id: 4, name: 'Poison' } ] },
-        { id: 4, name: 'charmander', types: [ { id: 10, name: 'fire' } ] },
-        { id: 7, name: 'squardle', types: [ { id: 11, name: 'water' } ] }
-      ]
+      pokemons
     }
   },
   components: {
