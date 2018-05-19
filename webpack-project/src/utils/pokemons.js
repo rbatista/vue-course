@@ -442,7 +442,12 @@ let pokemons = [
   },
   {
     id: '50',
-    name: 'diglett'
+    name: 'diglett',
+    weight: 0,
+    height: 0,
+    types: [],
+    moves: [],
+    stats: []
   }
 ]
 
