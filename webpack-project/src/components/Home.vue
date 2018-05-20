@@ -1,11 +1,14 @@
 <template>
   <div class="row">
     <div class="col-10">
-      <div class="row">
+      <div class="row" v-if="filteredPokemons.length">
         <div v-for="pokemon in filteredPokemons" v-bind:key="pokemon.id" class="col-3">
           <pokemon-card v-bind:pokemon="pokemon"></pokemon-card>
         </div>
       </div>
+      <div v-else>
+          No results.
+        </div>
     </div>
     <div class="col-2">
       <type-filter v-bind:types="types" v-on:filter-by="filterType"></type-filter>
