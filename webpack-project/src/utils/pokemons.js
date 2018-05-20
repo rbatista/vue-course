@@ -6,7 +6,14 @@ let pokemons = [
     height: 0,
     types: [ '12', '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
   },
   {
     id: '2',
@@ -15,7 +22,15 @@ let pokemons = [
     height: 0,
     types: [ '12', '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '3',
@@ -24,7 +39,15 @@ let pokemons = [
     height: 0,
     types: [ '12', '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '4',
@@ -33,7 +56,15 @@ let pokemons = [
     height: 0,
     types: [ '10' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '5',
@@ -42,7 +73,15 @@ let pokemons = [
     height: 0,
     types: [ '10' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '6',
@@ -51,7 +90,15 @@ let pokemons = [
     height: 0,
     types: [ '10', '3' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '7',
@@ -60,7 +107,15 @@ let pokemons = [
     height: 0,
     types: [ '11' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '8',
@@ -69,7 +124,15 @@ let pokemons = [
     height: 0,
     types: [ '11' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '9',
@@ -78,7 +141,15 @@ let pokemons = [
     height: 0,
     types: [ '11' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '10',
@@ -87,7 +158,15 @@ let pokemons = [
     height: 0,
     types: [ '7' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '11',
@@ -96,7 +175,15 @@ let pokemons = [
     height: 0,
     types: [ '7' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '12',
@@ -105,349 +192,661 @@ let pokemons = [
     height: 0,
     types: [ '7', '3' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '13',
     name: 'weedle',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '14',
     name: 'kakuna',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '7', '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '15',
     name: 'beedrill',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '7', '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '16',
     name: 'pidgey',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '1', '3' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '17',
     name: 'pidgeotto',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '1', '3' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '18',
     name: 'pidgeot',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '1', '3' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '19',
     name: 'rattata',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '1' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '20',
     name: 'raticate',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '1' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '21',
     name: 'spearow',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '1', '3' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '22',
     name: 'fearow',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '1', '3' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '23',
     name: 'ekans',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '24',
     name: 'arbok',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '25',
     name: 'pikachu',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '13' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '26',
     name: 'raichu',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '13' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '27',
     name: 'sandshrew',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '5' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '28',
     name: 'sandslash',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '5' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '29',
     name: 'nidoran-f',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '30',
     name: 'nidorina',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '31',
     name: 'nidoqueen',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '4', '5' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '32',
     name: 'nidoran-m',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '33',
     name: 'nidorino',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '34',
     name: 'nidoking',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '4', '5' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '35',
     name: 'clefairy',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '18' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '36',
     name: 'clefable',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '18' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '37',
     name: 'vulpix',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '10' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '38',
     name: 'ninetales',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '10' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '39',
     name: 'jigglypuff',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '1', '18' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '40',
     name: 'wigglytuff',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '1', '18' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '41',
     name: 'zubat',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '4', '3' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '42',
     name: 'golbat',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '4', '3' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '43',
     name: 'oddish',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '12', '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '44',
     name: 'gloom',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '12', '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '45',
     name: 'vileplume',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '12', '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '46',
     name: 'paras',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '7', '12' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '47',
     name: 'parasect',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '7', '12' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '48',
     name: 'venonat',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '7', '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '49',
     name: 'venomoth',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '7', '4' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   },
   {
     id: '50',
     name: 'diglett',
     weight: 0,
     height: 0,
-    types: [],
+    types: [ '5' ],
     moves: [],
-    stats: []
+    stats: {
+      speed: 0,
+      'special-defense': 0,
+      'special-attack': 0,
+      defense: 0,
+      attack: 0,
+      hp: 0
+    }
+
   }
 ]
 
